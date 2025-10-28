@@ -1,0 +1,70 @@
+Day 11: Arrays
+================
+Array is an index based collection of homogeneous data elements.
+
+What is index
+--------------
+Index is an integer starts with 0 and ends with end-1;
+
+The main advantage of an array is, we can represent multiple values in a single line and readability of the code will be improved.
+
+But main disadvantage of an array is:
+1.Fixed in size once we create an array we cannot increase or decrease the size based on our requirement that is to use arrays concept we must compulsorily know the size in advance which may not be possible always.
+2.Arrays can hold only homogeneous data elements.
+
+->We can resolve this problem by using collections.
+
+Single dimensional array declaration:
+======================================
+int[] a;//recommended to use because name is clearly separated from the type.
+int []a;
+int a[]; 
+
+Note: At the time of array declaration we cant specify the size. Otherwise we will get compile time error.
+
+EX:
+===
+int[] a;//valid
+int[5] a;//invalid
+
+Array Construction:
+--------------------
+Every array in java is an object hence we can create by using new operator.
+
+Ex: int[] a=new int[3];
+String[] names=new int[5];
+double[] prices=new int[10];
+
+IQ)What is the default value for Arrays?
+A)null.
+
+1)For every array type corresponding classes are available. But this classes are part of java language and not available to programmatic level.
+
+Array Initialization:
+----------------------
+Whenever we create an array, every element is initialized with its default values automatically.
+
+If we are not satisfied with its default values we can replace with our customized values.
+
+Declaration, creation and initialization in single line:
+==========================================================
+int[] a={10,20,30,40,50};
+char[] ch={'a', 'e', 'o', 'k'};
+String[] fruits={"apple", "banana", "cherry"};
+
+length vs length()
+-------------------
+length
+=======
+length is a final variable applicable for arrays. By using length variable we can find out the array size.
+
+length()
+=========
+length() is a final method applicable for Strings. By using length method we can find out the length of a String.
+
+
+
+
+
+
+
