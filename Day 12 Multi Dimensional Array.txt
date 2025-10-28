@@ -1,0 +1,70 @@
+Day 12: Multi Dimensional Array
+=================================
+Two-dimensional array or multi-dimensional array 
+----------------------------------------------------
+Two-dimensional array Declaration:
+=====================================
+int[][] a;//recommended
+int [][]a;
+int a[][];
+int [] []a;
+int[] a[];
+int []a[];
+
+Three-dimensional array Declaration:
+=======================================
+int[][][] a;
+int [][][]a;
+int a[][][];
+int [][] []a;
+int[] a[][];
+int [][]a[];
+
+
+Which of the following declarations are valid:
+------------------------------------------------
+1)int[] a1,b1;//valid. a1[],b1[]
+2)int[] a2[],b2;//a2-2 dimension,b2-1
+3)int[] []a3,b3;//a3-3,b3-2
+4)int[] a4,[]b4;//invalid
+
+Note: If we want to specify the dimension before the variable, the rule is applicable only for the first variable. Second variable onwards we cannot apply the declaration.
+
+
+Multi-dimensional array creation:
+================================== 
+In java multi-dimensional arrays are implemented as arrays of arrays approach ,but not in matrix form. The main advantage of this approach is to improve memory utilization.
+
+int[][] a=new int[2][];
+a[0]=new int[3];
+a[1]=new int[2];
+
+
+Multi-dimensional array Initialization:
+=========================================
+
+int [][][] a={{ {10,20,30} , {40,50}, {60} } , { {70,80} , {90,100,110} }}
+
+Jagged array:
+=============
+If each row have different size then such array is called jagged array.
+
+
+//read and print a 2d array.
+//sum of all elements in 2d array
+//row-wise sum in 2d array
+//column-wise sum in 2d array
+//transpose of a matrix: switch rows with columns
+//multiply two matrices 
+//add two matrices 
+//row-wise and column-wise product
+
+
+
+https://tinyurl.com/JFS44-Java-Notes
+
+
+
+
+
+
